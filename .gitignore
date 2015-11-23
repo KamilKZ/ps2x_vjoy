@@ -1,10 +1,7 @@
-# Generated
-#Source/Apex/Common/Generated.hpp
 
 # Build directories
-Build/
-Lib/
-Bin/
+windows/src/Debug/
+windows/src/x64/
 
 # Misc.
 configure*
@@ -12,13 +9,18 @@ configure*
 *.swp
 .DS_Store
 *.log
+*.tlog
 *.bak
 Thumbs.db
+*.suo
+*.user
+*.opensdf
 
 # binaries
 *.exe
 *.idb
 *.ilk
 *.pdb
-*.dll
-*.lib
+*.obj
+
+*.pyc
