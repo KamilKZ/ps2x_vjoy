@@ -1,0 +1,24 @@
+# Generated
+#Source/Apex/Common/Generated.hpp
+
+# Build directories
+Build/
+Lib/
+Bin/
+
+# Misc.
+configure*
+*~
+*.swp
+.DS_Store
+*.log
+*.bak
+Thumbs.db
+
+# binaries
+*.exe
+*.idb
+*.ilk
+*.pdb
+*.dll
+*.lib
