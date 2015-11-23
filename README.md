@@ -27,6 +27,17 @@ and
 * Download sources for [Linux vJoy port](https://github.com/zpon/Linux-Virtual-Joystick-cpp) 
 * Compile
 
+####Arduino####
+
+* Add PS2_pad_lib to libraries
+* Open PS2X/PS2X.ino
+* Connect the [controller to the arduino](http://www.billporter.info/wp-content/uploads//2010/05/wiring.jpg)
+	* PS2_SEL is the Attention pin(6)
+	* Motor power(3) not required, especially since there is no FFB implemented.
+	* Data pin(1) will require a pull-up resistor
+* Change pin constants in the code if required
+* Upload to arduino
+
 ## Usage ##
 
 #### Windows ####
